@@ -167,6 +167,14 @@ CONFIG_encrypt_password='password0123'
 Please take a look at the supplied "automysqlbackup.conf" for information about the configuration options.
 
 
+SCHEDULING
+-------------------------
+
+
+```bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+11 4 * * * /usr/local/bin/automysqlbackup
+```
 
 ENCRYPTION
 -------------------------
@@ -211,4 +219,9 @@ mysql --user=username --pass=password --host=dbserver -e "source /path/file.sql"
 ```
 
 NOTE: Make sure you use "<" and not ">" in the above command because you are piping the file.sql to mysql and not the other way around.
+
+PACKAGE
+-----------
+
+Download RPM (and SRPM) from [copr](https://copr.fedoraproject.org/coprs/ksyz/el7-epel)
 
