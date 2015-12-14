@@ -1,16 +1,5 @@
 AutomysqlBackup
 -------------------------
-INDEX
--------------------------
-Disclaimer
-Install
-Usage
-Configuration Options
-Encryption
-Backup rotation
-Restoring
-
-
 
 DISCLAIMER
 -------------------------
